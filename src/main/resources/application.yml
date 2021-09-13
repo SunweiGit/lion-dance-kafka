@@ -1,0 +1,27 @@
+# 配置tomcat端口号
+server:
+  port: 8080
+
+# 配置数据源
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092,localhost:9093
+    producer:
+      retries: 0
+      batch-size: 2048
+      buffer-memory: 4096
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      enable-auto-commit: false
+      auto-commit-interval: 100ms
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      properties:
+        session.timeout.ms: 15000
+
+
+# 配置日志
+logging:
+  level:
+    com.xxx: debug
