@@ -5,7 +5,7 @@ server:
 # 配置数据源
 spring:
   kafka:
-    bootstrap-servers: localhost:9092,localhost:9093
+    bootstrap-servers: localhost:9092
     producer:
       retries: 0
       batch-size: 2048
@@ -24,4 +24,4 @@ spring:
 # 配置日志
 logging:
   level:
-    com.xxx: debug
+    cn.liondance.liondancekafka: debug
