@@ -29,7 +29,7 @@ https://kafka.apache.org/documentation/#quickstart
 
 
 
-NS;vk6VLER5WT
+NS;vk6VLER5WT。OirpoFIFeI8Z5DVNwdHW
 
 
 
