@@ -29,6 +29,7 @@ https://kafka.apache.org/documentation/#quickstart
 
 
 
+NS;vk6VLER5WT
 
 
 
