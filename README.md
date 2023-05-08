@@ -31,6 +31,10 @@ https://kafka.apache.org/documentation/#quickstart
 
 NS;vk6VLER5WT。OirpoFIFeI8Z5DVNwdHW
 
+kubectl exec -it -n provider xjp-ccf5c644c-gkcjc bash
+apt-get update
+apt-get install telnet
+
 
 
 
