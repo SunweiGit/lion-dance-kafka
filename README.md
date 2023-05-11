@@ -35,6 +35,9 @@ kubectl exec -it -n provider xjp-ccf5c644c-gkcjc bash
 apt-get update
 apt-get install telnet
 
+    host: azrzayjancnidataprod.redis.cache.chinacloudapi.cn
+    port: 6380
+
 
 
 
